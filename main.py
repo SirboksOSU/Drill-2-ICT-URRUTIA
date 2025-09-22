@@ -11,12 +11,12 @@ def show_message(event):
 
     # Multiline message using input values
     message = f"""👤 Student Profile
-    Name   : {Lucas Urrutia}
-    Age    : {15}
-    School : {OBMC}
+    Name   : {name}
+    Age    : {age}
+    School : {school}
 
     ✏️ Notes:
-    {Lucas} is currently {15} years old and studies at {OBMC}.
+    {name} is currently {age} years old and studies at {school}.
     This information was gathered through input fields and displayed using
     a multiline string in Python via PyScript.
     """
